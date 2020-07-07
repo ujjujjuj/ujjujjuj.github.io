@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: #202040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width:80%;
+    margin-top: 80px;
+}
+.head{
+    width:60%
+}
+.head h1{
+    font-size: 3em;
+    font-weight: 600;
+    color: #FF6363;
+}
