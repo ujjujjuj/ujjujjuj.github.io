@@ -5,12 +5,29 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+html{
+    overflow-x: hidden;
+    width:100%;
+}
 body{
     background-color: #202040;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 140vh;
+    overflow: hidden;
 }
+::-webkit-scrollbar{
+    width:12px
+}
+
+::-webkit-scrollbar-track{
+    display: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FF6363;;
+}
+/*
 .container{
     width:80%;
     margin-top: 80px;
@@ -22,4 +39,14 @@ body{
     font-size: 3em;
     font-weight: 600;
     color: #FF6363;
+}
+*/
+#f{
+    color:#FF6363;
+    width: 400%;
+    word-wrap: break-word;
+    transform: rotate(-15deg) translateY(-300px);
+    line-height: 14px;
+    font-size: 0.9em;
+    letter-spacing: 2px;
 }
