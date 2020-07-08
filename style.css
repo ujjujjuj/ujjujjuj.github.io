@@ -45,7 +45,7 @@ body{
     color:#FF6363;
     width: 400%;
     word-wrap: break-word;
-    transform: rotate(-15deg) translateY(-200px) translateX(-300px);
+    transform: rotate(-15deg) translateY(-400px) translateX(-300px);
     line-height: 14px;
     font-size: 0.9em;
     letter-spacing: 2px;

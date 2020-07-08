@@ -1,8 +1,8 @@
-const f = document.getElementById("f")
+const f = document.getElementById("f");
 
-let str = ''
+let str = '';
 
 for(i=0;i<30000;i++){
-    str += 'Loser'
+    str += 'Loser';
 }
-f.innerHTML = str
+f.innerHTML = str;
