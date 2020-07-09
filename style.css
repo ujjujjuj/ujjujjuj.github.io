@@ -14,39 +14,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 140vh;
+    max-height: 100vh;
     overflow: hidden;
 }
-::-webkit-scrollbar{
-    width:12px
-}
-
-::-webkit-scrollbar-track{
-    display: none;
-}
-::-webkit-scrollbar-thumb{
-    background-color: #FF6363;;
-}
-/*
-.container{
-    width:80%;
-    margin-top: 80px;
-}
-.head{
-    width:60%
-}
-.head h1{
-    font-size: 3em;
-    font-weight: 600;
-    color: #FF6363;
-}
-*/
 #f{
     color:#FF6363;
     width: 400%;
     word-wrap: break-word;
-    transform: rotate(-15deg) translateY(-400px) translateX(-300px);
+    transform: rotate(-15deg) translateY(-600px) translateX(-300px);
     line-height: 14px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     letter-spacing: 2px;
 }
