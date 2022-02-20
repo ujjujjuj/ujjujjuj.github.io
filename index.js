@@ -1,1 +1,1 @@
-window.location = "https://ujju.xyz"
+window.location = "https://ujjwal.eu.org";
